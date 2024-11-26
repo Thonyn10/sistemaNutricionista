@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorio Do Tonho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="fundo">
+    <div id="pia"> <img src="testeeee-removebg-preview.png" alt=""> </div>
+    <div id="guria"> <img src="testeUM.png-removebg-preview.png" alt=""></div>
+    </div>
+    <div id="home">
+        <h1> Consultorio do Tonho</h1>
+    </div>
+    <div id="containerCadastrar">
+        <div>
+            <h2> Casdastrar paciente </h2>
+            Nome: <input type="text" name="cadastrarNome" id="cadastrarNome" placeholder="Nome">
+            Idade: <input type="number" name="cadastrarIdade" id="cadastrarIdade" placeholder="Idade"><br> <br>
+            Genero: <input type="radio" name="cadastrarGenero" id="masculino" value="Masculino"> Masculino
+            <input type="radio" name="cadastrarGenero" id="feminino" value="Feminino"> Feminino <br> <br>
+            Peso: <input type="number" name="cadastrarPeso" id="cadastrarPeso" placeholder="Peso"> 
+            Altura(m): <input type="number" name="cadastrarAltura" id="cadastrarAltura" placeholder="Altura"> <br> <br>
+            Cintura(cm): <input type="number" name="cadastrarCintura" id="cadastrarCintura" placeholder="Cintura">
+            Quadril(cm): <input type="number" name="cadastrarQuadril" id="cadastrarQuadril" placeholder="Quadril"> <br> <br>
+            <button id="cadastrar"> Cadastrar paciente </button>
+        </div>
+    </div>
+    <div id="containerSelecionar"> 
+        <h3> Selecionar paciente</h3>
+        <label> Paciente: </label>
+        <select id="selecionar"> 
+            <option value=""> Selecione um paciente </option>
+        </select>
+    </div>
+    <div id="containerResultado">
+        <p class="resultadoTexto"> Resultado paciente</p>
+        <div class="resultados">
+            <table border="collapse">
+                <thead>
+                    <th>&#160; Nome &#160; </th> 
+                    <th>&#160; Idade &#160;</th>
+                    <th>&#160; Genero &#160;</th>
+                    <th>&#160; Peso(kg) &#160;</th>
+                    <th>&#160; Altura(m) &#160;</th>
+                    <th>&#160; IMC &#160;</th>
+                    <th>&#160; Gordura Corporal (%) &#160;</th>
+                    <th>&#160; Peso Ideal &#160;</th>
+                    <th>&#160; TMB &#160;</th>
+                </thead>
+                <tbody id="listarPacientes"> </tbody>
+            </table>
+        </div>
+    </div>
+    <script type="module" src="./main.js"> </script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(255, 133, 133);
+}
+#home{
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    text-decoration: underline;
+    color: white;
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.191);
+    border-top: 10px solid rgba(0, 0, 0, 0.16);
+    border-left: 10px solid rgba(0, 0, 0, 0.16);
+    border-right: 10px solid rgba(0, 0, 0, 0.16);
+    margin-top: -80px;
+}
+#containerCadastrar{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.191);
+    border-right: 10px solid rgba(0, 0, 0, 0.208);
+    border-left: 10px solid rgba(0, 0, 0, 0.16);
+    z-index: 10;
+
+}
+#containerSelecionar{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.191);
+    color: white;
+    border-right: 10px solid rgba(0, 0, 0, 0.208);
+    border-left: 10px solid rgba(0, 0, 0, 0.16);
+}
+#containerResultado{
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.191);
+    color: white;
+    border-right: 10px solid rgba(0, 0, 0, 0.208);
+    border-left: 10px solid rgba(0, 0, 0, 0.16);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.208);
+    
+}
+table{
+    text-align: center;
+    width: 100%;
+    color: white;
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.191);
+    
+}
+.resultadoTexto{
+    font-size: 70px;
+    text-shadow: 3px 1px 1px rgba(0, 0, 0, 0.191);
+    color: white;
+}
+#guria{
+    padding-left: 850px;
+    padding-top: 40px;
+    margin-top: -550px;
+    width: 100px;
+    height: 100px;
+}
+#pia{
+    margin-left: -10px;
+    margin-top: 10px;
+}
+button{
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.364);
+    font-size: 30px;   
+}
+button:active{
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.364);
+    font-size: 29px;   
+}
+input{
+    color: black;
+    opacity: 0.5;
+}
+input::placeholder{
+    color: black;
+    opacity: 1;
+    text-shadow: 0.20px 0.50px 0.60px rgb(0, 0, 0);
+}
+.input:focus{
+    color: black;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.287);
+}
+input:active {
+    
+    color: black;
+}
+select{
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.421);
+    font-size: 30px;
+}
+select:focus-visible{
+    color: white;
+}
+input:placeholder-shown{
+    
+}
